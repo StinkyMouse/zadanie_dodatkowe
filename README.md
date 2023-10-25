@@ -11,18 +11,18 @@ Część 1: Tworzenie Struktury HTML
 2. Na stronie dodaj równiez sekcje do przeglądania produktów, klientów i pracownikow.
 
 Cześć 2: Tworzenie Bazy Danych
-1. Utwórz bazę danych o nazwie ERPDabase.
+1. Utwórz bazę danych o nazwie ERPDatabase.
 2. W bazie danych utwórz pięć tabel:
   Products zawierającą informacje o produktach (np, ID, nazwa, opis, cena, dostępność itp).
   Customers zawierającą dane klientów (np. ID, imię, nazwisko, adres, e-mail itp)
   Orders zawierającą informacje o zamówieniach (np. ID zamowienia, data zamówienia, klient, produkt itp).
   Employees zawierającą dane pracowników (np. ID, imię, nazwisko. stanowisko, wynagrodzenie itp.).
   EmployeeActions Zawierająca informacje o akcjach pracowników na produktach i klientach (np. ID akcji, ID pracownika, typ akcji, ID produktu/klienta itp.).
- Pamiętaj, aby odpowiednio dobrać typy danych dla każdej kolumny.
+  Pamiętaj, aby odpowiednio dobrać typy danych dla każdej kolumny.
 4. Wypełnij tabele przykładowymi danymi.
 
 Część 3: Tworzenie PHP Backend
-1 Stwórz pliki PHP do obsługi formularzy oraz przetwarzania danych; 
+1. Stwórz pliki PHP do obsługi formularzy oraz przetwarzania danych; 
   add_product.php dla dodawania produktu.
   edit_product.php dla edycji produktu. 
   delete_product.php dla usuwania produktu.

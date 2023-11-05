@@ -13,15 +13,26 @@
             <h2>Czipsotronik</h2>
         </header>
         <nav>
-            <a class="wybrany" href="index.html">Główna</a>
+            <a href="index.html">Główna</a>
             <a href="index_produkty.html">Produkty</a>
-            <a href="index_log.php">Logowanie</a>
+            <a class="wybrany" href="index_log.php">Logowanie</a>
             <a href="index_rej.php">Rejestracja</a>
         </nav>
         <aside>
             
         </aside>
         <main>
+            <form method="post" action="phpy/login.php">
+                Nazwa użytkownika: <br>
+                <input type="text" name="login"><br>
+                Hasło: <br>
+                <input type="password" name="haslo"><br>
+                <input type="submit">
+            </form>
+
+            <?php
+            include("phpy/login.php");
+            ?>
 
         </main>
     </body>

@@ -7,7 +7,9 @@ create table product(
 );
 create table Customers(
 	id_klienta int not null PRIMARY KEY AUTO_INCREMENT,
-	imie char(15) not null,
+	login char(15) not null,
+    haslo char(15) not null,
+    imie char(15) not null,
     nazwisko char(15) not null,
     adres varchar(15) not null,
     e-mail varchar(15)
@@ -20,6 +22,8 @@ create table Orders(
 );
 create table Employee(
 	id_pracownika int not null PRIMARY KEY AUTO_INCREMENT,
+    login char(15) not null,
+    haslo char(15) not null,
 	imie char(15) not null,
     nazwisko char(15) not null,
     stanowisko char(15) not null,
@@ -55,14 +59,6 @@ values
     ('','','',''),
     ('','','',''),
     ('','','',''),
-    ('','','','');
-
-insert into Customers(imie, nazwisko, adres, e-mail)
-values
-    ('','','',NULL),
-    ('','','',''),
-    ('','','',NULL),
-    ('','','',NULL),
     ('','','','');
 
 insert into Employee(imie, nazwisko, stanowisko, wynagrodzenie)
